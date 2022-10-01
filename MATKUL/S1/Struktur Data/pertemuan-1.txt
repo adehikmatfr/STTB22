@@ -1,4 +1,4 @@
-Struktur Data
+Struktur Data (pak aldy)
 Data -> sesuatu hal yang bersifat nyata dan belum di olah
 informasi -> data yang sudah di olah dan dapat bermanfaat (intinya bermanfaat)
 struktur -> kumpulan kumpulan data

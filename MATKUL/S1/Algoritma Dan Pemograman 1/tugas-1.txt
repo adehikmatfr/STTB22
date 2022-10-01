@@ -1,0 +1,42 @@
+Nama : Ade Hikmat
+NPM : 22552011130
+tgl : 10/01/2022
+
+Latihan 
+1. buat algoritma mengecek bilangan negatif dan positif
+ - masukan nilai
+ - jika nilai kurang dari 0 
+  - maka nilai adalah bilangan negatif
+ - jika nilai lebih dari 0 
+  - maka nilai adalah bilangan positif 
+ - jika nilai sama dengan 0 
+  - maka nilai adalah bilangan netral 
+
+PESUDOCODE:
+ - start
+ - input(nilai)
+ - if nilai < 0; bilangan = negatif
+ - else if nilai > 0; bilangan = postifi
+ - else bilangan = netral / 0
+ - end
+
+2. menampilkan deret angka 0,2,5,10,26,37
+- masukan i = 0
+- while i kurang dari samadengan 6
+- jika i samadengan 0
+  - maka tampilkan 0
+- jika i tidak samadengan 0 
+  - maka nilai samadengan i*i+1
+  - tampilkan nilai
+- i di tambah 1
+
+PESUDOCODE
+- start
+- input i = 0
+- while i <= 6
+- if i == 0; print(i)
+- else print(i*i+1)
+- i++
+- end
+
+3. 0,1,4,9,16,25,36,49,64
