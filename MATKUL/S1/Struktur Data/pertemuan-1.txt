@@ -1,0 +1,10 @@
+Struktur Data
+Data -> sesuatu hal yang bersifat nyata dan belum di olah
+informasi -> data yang sudah di olah dan dapat bermanfaat (intinya bermanfaat)
+struktur -> kumpulan kumpulan data
+
+A. Tipe data
+1. data sederhana tunggal
+ - int, float/real, boolean, dan char
+2. data sederhana majemuk
+ - string
