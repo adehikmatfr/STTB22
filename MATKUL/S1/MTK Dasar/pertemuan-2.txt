@@ -1,0 +1,38 @@
+- Sistem Bilangan Real
+merupakan bilangan numeric 
+bilangan real adalah bilangan nyata -> Real
+1. bilangan rasional
+-8, 42 , -11/12
+- bilangan bulat
+  - bilangan bulat negatif
+  - nol
+  - bilangan bulat postifi
+
+2. bilangan irasional
+phi
+
+- Pertidak samaan bilangan real
+simbol : >, >=, <=, < 
+
+- Nilai Mutlak
+https://www.canva.com/design/DAFOd_91TTM/1AN1h4m00eqFbohU_EE_2w/view?utm_content=DAFOd_91TTM&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
+jarak suatu bilangan ke bilangan nol pada garis bilangan real. nilai mutlak hasilnya pasti positif
+nilai mutlak dituliskan dengan simbol garis lurus. Misal : |x| |y| |z| 
+
+contoh:
+|5| = 5
+|-3| = 3
+
+|x| = 3 
+maka nilai x adalah:
+x=3
+x=-3
+
+pertidak samaan nilai mutlak
+1. |f(x)| < l dan k > 0 maka -k < f(x) < k dibaca f(x) > -k dan f(x) < k
+2. |f(x)| > 1 dan k > 0 maka f(x) < -k atau f(x) > k
+
+
+persamaan dan pertidaksamaan
+1. lambang persamaan lambang = , kalo pertidak samaan >,>=,<,<=
+2. persamaan rang nya itu hanya satu (satu titik), kalo pertidak samaan bisa lebih dari satu (daetrah)
