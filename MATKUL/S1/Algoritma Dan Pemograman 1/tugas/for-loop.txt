@@ -1,0 +1,101 @@
+Nama  : Ade Hikmat
+Kelas : TIF 22B
+NPM   : 22552011130
+
+#include <iostream>
+using namespace std;
+
+void printNestedFor1()
+{
+  int x, y;
+  for (x = 2; x <= 6; x++)
+  {
+    for (y = 1; y <= 4; y++)
+    {
+      cout << x + y << "\t";
+    };
+    cout << "\n";
+  };
+}
+
+void printNestedFor2()
+{
+  int x, y;
+  for (x = 1; x <= 10; x++)
+  {
+    for (y = 1; y <= x; y++)
+    {
+      cout << (x * 2) + y << "\t";
+    }
+    cout << "\n";
+  };
+}
+
+enum numberType
+{
+  EVEN = 1,
+  ODD = 2,
+};
+
+void printRowNumber(int minNum, int maxNum, numberType numType, int exludesNum[2], bool isExlude)
+{
+  int i, mod, ex, count;
+  bool pNum;
+
+  // validate type if odd number result modulus must be 1 else 0 for even number
+  mod = numType == ODD ? 1 : 0;
+
+  for (i = minNum; i <= maxNum; i++)
+  {
+    if (i % 2 == mod)
+    {
+      // exlude print number
+      if (isExlude)
+      {
+        pNum = true;
+
+        // loop exlude an array
+        for (ex = 0; ex <= 1; ex++)
+        {
+          // if i number is exlude break loop exlude to continue loop one
+          if (exludesNum[ex] == i)
+          {
+            pNum = false;
+            break;
+          }
+        }
+
+        // print i not exlude number
+        if (pNum)
+          cout << i << " ";
+      }
+      else
+      {
+        cout << i << " ";
+      }
+    }
+  };
+}
+
+int main()
+{
+  cout << "Jawaban nomor 1" << endl;
+  printNestedFor1();
+
+  cout << "Jawaban nomor 2" << endl;
+  printNestedFor2();
+
+  cout << "Jawaban nomor 3" << endl;
+  printRowNumber(2, 30, EVEN, 0, false);
+
+  cout << endl
+       << "Jawaban nomor 4" << endl;
+  int ex[2] = {0, 25};
+  printRowNumber(11, 50, ODD, ex, true);
+
+  cout << endl
+       << "Jawaban nomor 5" << endl;
+  int ex2[2] = {10, 20};
+  printRowNumber(4, 50, EVEN, ex2, true);
+  return 0;
+}

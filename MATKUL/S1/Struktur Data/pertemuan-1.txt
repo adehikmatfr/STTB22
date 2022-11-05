@@ -1,10 +1,27 @@
 Struktur Data (pak aldy)
-Data -> sesuatu hal yang bersifat nyata dan belum di olah
+Data -> sesuatu hal yang bersifat nyata (fakta) dan belum di olah
 informasi -> data yang sudah di olah dan dapat bermanfaat (intinya bermanfaat)
-struktur -> kumpulan kumpulan data
+struktur -> kerangka / kumpulan kumpulan data
 
-A. Tipe data
+A. Tipe data (pengelompokan data)
 1. data sederhana tunggal
- - int, float/real, boolean, dan char
+ - int, float/real, boolean, dan char (lebihterbatas), date, dateTime
 2. data sederhana majemuk
  - string
+
+B. Struktur Data
+ 1. struktur data sederhana 
+  - array (dimensi 1,2,banyak)
+     media penyimpanan sementara yang bersifat homogen(1 tipe data) dan terurut.
+  - record (baris / row)
+  - map
+2. Struktur data majemuk
+ a. linear (stack, queue & linked list)
+  - stack (tumpukan)
+     process pemrosesan di lakukan di satu pintu (input output). (LIFO) -> last in first out (masuk terakhir keluar duluan)
+  - queue
+     2 pintu 1 in 1 out.FIFO -> first in first out
+  - linked list (single, double, s/d continues)
+     media penyimpanan sementara tapi lebih flexible (sequensial) di banding array.
+     (*)pointer -> (tipe data yang menunjuk alamat memory)
+ b. non linear

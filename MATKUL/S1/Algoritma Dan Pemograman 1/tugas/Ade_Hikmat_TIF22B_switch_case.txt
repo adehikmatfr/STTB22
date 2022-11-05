@@ -1,0 +1,51 @@
+Nama: Ade Hikmat
+Kelas: TIF 22B
+NPM: 22552011130
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int inp, ck, th, tm, total, i;
+  i = 1;
+  cout << "Menu" << endl;
+  cout << "1. Ayam Bakar 20000" << endl;
+  cout << "2. Tahu 1000" << endl;
+  cout << "3. Tempe 1000" << endl;
+  cout << "0 untuk mengakhiri pesanan" << endl;
+  cout << "Pesanan: " << endl;
+
+  while (i <= 3)
+  {
+    switch (i)
+    {
+    case 1:
+      cout << "- Ayam Bakar : ";
+      cin >> ck;
+      total += ck * 20000;
+      i++;
+      break;
+    case 2:
+      cout << "- Tahu       : ";
+      cin >> th;
+      total += th * 1000;
+      i++;
+      break;
+    case 3:
+      cout << "- Tempe      : ";
+      cin >> tm;
+      total += tm * 1000;
+      i++;
+      break;
+    }
+  }
+
+  if (total > 0)
+  {
+    cout << "------------------------- +" << endl;
+    cout << "Total : " << total << endl;
+  }
+
+  return 0;
+}

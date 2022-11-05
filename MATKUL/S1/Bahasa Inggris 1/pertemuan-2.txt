@@ -1,0 +1,46 @@
+TENSES
+1. past
+2. present
+3. feature
+ASPECT
+1. simple 
+2. continuous
+3. perfect
+4. perfect continuous
+
+PARESTUSITIPAPETI
+
+TENSES -> penamaan > pola > penggunaan
+TENSES -> any of the form of a verb witch show the time at witch an action happened (bentuk kata kerja yang menunjukan waktu terjadinya perubatan/peristiwa)
+
+- PAST TENSE
+i sang yesterday. (waktu lampau)
+- PRESENT TENSE
+1 sing evry day. (sekarang)
+- FUTURE TENSE
+i will sing tomorrow. (masa depan)
+
+- tingkat kesempurnaan peristiwa atau perubatan
+1. simple -> bersifat umum (general)
+2. continuous -> bersifat khusus (spesific)
+3. perfect -> penekanan hasil (result)
+4. perfect continuous -> penekanan durasi (duration) 
+
+A. penamaan TENSES
+simple -> aspect + TENSE
+continuous, perfect, perfect continuous -> TENSE + aspect
+
+B. pola TENSES
+- verbal
+  memekai kaya kerja (verb)  -> SUBJECT + VERB + OBJECT
+    - i speak enlish evry day
+      S   P     O 
+- nominal
+ memakai be SUBJECT + BE + NON-VERB (A.A.P.A.N) perpositional phrase, adverb,pronoun, adjective, noun
+    - i am at home on sundays
+      S BE        ADV
+
+1. verb yang digunaakn
+                (Ireguller verb -> verb yang tidak beraturan)
+verb base           verb1           verb2           verb3       verb-ing
+-speak              - speak(s)      - spoke         - spoken    - speaking

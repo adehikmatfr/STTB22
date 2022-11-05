@@ -1,0 +1,17 @@
+perbedaan character dan varchar
+
+- Char(100) ini memakan memory 100 meski kita gunakan cuman 20 karakter
+jadi jika ingin menggunakan char di harapkan harus tau / fix panjang charnya berapa
+
+- varchar(100) (flexible)
+leng 100 digunakan 20. maka memory yang di gunakan adalah 20
+
+Array
+- 1 dimensi -> pengelompokan data
+- 2 dimensi -> di lihat dari sudut pandang pertama
+- dimensi banyak 
+
+
+next week
+- pointer (alamat memory)
+- 
