@@ -1,0 +1,23 @@
+pohon biner -> berawal dari pola pemikiran manusia untuk menyelesaikan suatu kasus. di bagi menjadi 2 pola ada mencari informasi secara khusus atau umum dulu.
+methode pohon biner di bagi menjadi 3:
+- preorder : root di lewati di awal (parent (find root) -> child)
+- inorder : root di lewatii di tengah (child -> parent (find root) -> child)
+- postorder : root di lewati di akhir (child -> child -> parent (find root))
+
+#materi minggu depan sorting
+subject : sorting - nama - kelas
+format : .pptx
+deadline: 23-12-22
+-----------------------------
+sorting
+- Ascending
+- Descending
+
+1. Bubble sort
+2. insertaion sort
+3. selection sort
+4. merge sort
+5. quick sort
+
+definisi
+- contoh pengaplikasian

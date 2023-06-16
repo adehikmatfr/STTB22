@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main()
+{
+    int arr[] = {50, 65, 70, 67, 45, 55, 60, 60, 55, 70, 65};
+    int length = sizeof(arr) / sizeof(*arr);
+    int total;
+    cout << "Menghitung Berat Badan" << endl;
+    cout << "Berat Badan Orang Random : ";
+    for (int i = 0; i < length; i++)
+    {
+        cout << arr[i];
+        if (i < length - 1)
+        {
+            cout << " Kg, ";
+        }
+        else
+        {
+            cout << " Kg"<< endl;
+        }
+        total += arr[i];
+    }
+    cout << "Rata-Rata Berat Badan Orang Random : " << total / length << " Kg";
+}

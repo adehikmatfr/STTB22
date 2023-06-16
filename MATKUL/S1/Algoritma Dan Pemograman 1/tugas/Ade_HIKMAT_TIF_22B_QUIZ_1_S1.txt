@@ -1,0 +1,59 @@
+Nama: Ade Hikmat
+Kelas: TIF 22B
+NPM: 22552011130
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+void printBebyShark(int maxLoop)
+{
+  for (int i = 0; i < maxLoop; i++)
+  {
+    cout << "baby shark, dudu dudu" << endl;
+  }
+}
+
+void hrdInterview()
+{
+  string questions[5] = {"Sebutkan Nama?", "Apakah Anda Memiliki Pengalaman Kerja sebemunya sebagai programmer ? Jawab ya / tidak", "Jelaskan Pengalaman Anda!", "Bahasa pemograman apa yang kamu kuasai ?", "Apa yang membuat anda tertaik bergabung di perusahaan kami ?"};
+  string answer[5];
+  int i = 0;
+  bool loop = true;
+  do
+  {
+    cout << questions[i] << endl;
+    cout << "berikan jawaban anda : ";
+    cin >> answer[i];
+
+    if (i == 1)
+    {
+      if (answer[i] == "tidak")
+      {
+        answer[i + 1] = "tidak memiliki pengalaman kerja sebelumnya";
+        i++;
+      }
+    }
+
+    cout << endl;
+    i++;
+  } while (i < 5);
+  system("cls");
+
+  cout << "Jawaban Dan Pertanyaan Interview : " << endl;
+
+  for (int i = 0; i < 5; i++)
+  {
+    cout << i + 1 << "." << questions[i] << endl;
+    cout << answer[i] << endl;
+  }
+}
+
+int main()
+{
+  // print baby shark
+  printBebyShark(10);
+
+  // HRD interview
+  hrdInterview();
+}

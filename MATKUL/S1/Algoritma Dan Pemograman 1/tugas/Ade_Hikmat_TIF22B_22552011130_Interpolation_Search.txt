@@ -1,0 +1,62 @@
+// nama : Ade Hikmat Pauji Ridwan
+// kelas : TIF 22B
+// NPM : 22552011130
+#include <bits/stdc++.h>
+using namespace std;
+
+int interpolationSearch(int arr[], int n, int key)
+{
+    int low = 0, hight = (n - 1);
+    while (low <= hight && key >= arr[low] && key <= arr[hight])
+    {
+        if (low == hight)
+        {
+            if (arr[low] == key)
+                return low;
+            return -1;
+        }
+        // rumus
+        int position = (((double)(key - arr[low]) /
+                         (arr[hight] - arr[low])) *
+                            (hight - low) +
+                        low);
+
+        // key found
+        if (arr[position] == key)
+            return position;
+
+        if (arr[position] < key)
+            low = position + 1;
+        else
+            hight = position - 1;
+    }
+    return -1;
+}
+
+int main()
+{
+    int arr[] = {220, 227, 234, 241, 248, 255, 262, 269, 276, 283, 290, 297, 304, 311, 318, 325, 332, 339, 346, 353, 360, 367, 374, 381, 388, 395, 402, 409, 416, 423, 430, 437, 444, 451, 458, 465, 472, 479, 486, 493, 500, 507, 514, 521, 528, 535, 542, 549, 556, 563, 570, 577, 584, 591, 598, 605, 612, 619, 626, 633, 640, 647, 654, 661, 668, 675, 682, 689, 696, 703, 710, 717, 724, 731, 738, 743, 752, 759, 766, 773, 780, 787, 794, 801, 808, 815, 822, 829, 836, 843, 850, 857, 864, 871, 878, 885, 892, 899, 906, 980};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "data array [";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i];
+        if (i == (n - 1))
+            cout << "]" << endl;
+        else
+            cout << ",";
+    }
+
+    int x = 743;
+
+    cout << "mencari index dengan value " << x << endl;
+
+    int index = interpolationSearch(arr, n, x);
+
+    if (index != -1)
+        cout << "Element Index Ditemukan Pada Index Ke " << index;
+    else
+        cout << "Elemet Index Tidak Ditemukan";
+    return 0;
+}

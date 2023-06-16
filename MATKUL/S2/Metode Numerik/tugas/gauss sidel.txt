@@ -1,0 +1,3 @@
+gaus jacobi untuk x1 - x3 itu menggunakan nilai awal
+gaus seidel untuk menemukan x2 harus menemukan terlebih dahulu nilai dari iterasi x1
+jadi nilai awal dari x2 kita bisa menggunakan nilai dari iterasi x1

@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    cout << "RENTAL SEJAHTERA" << endl;
+    cout << "JENIS MOBIL: " << endl;
+    cout << "1. SEDAN Rp. 250.000 / jam" << endl;
+    cout << "2. MINI MPV Rp. 300.000 / jam" << endl;
+    cout << "3. MPV Rp. 350.000 / jam" << endl;
+
+    const int sedan = 250000, mmpv = 300000, mpv = 350000;
+    int jenisMobil, lamaRental, keterlambatan, total;
+    bool loop = true;
+
+    while (loop)
+    {
+        cout << "Masukan Jenis Mobil: ";
+        cin >> jenisMobil;
+
+        switch (jenisMobil)
+        {
+        case 1:
+            total = sedan;
+            loop = false;
+            break;
+        case 2:
+            total = mmpv;
+            loop = false;
+            break;
+        case 3:
+            total = mpv;
+            loop = false;
+            break;
+        default:
+            cout << "Jenis Mobil Yang Anda Masukan Salah" << endl;
+            loop = true;
+            break;
+        }
+    }
+
+    cout << "Lama Rental (satuan jam): ";
+    cin >> lamaRental;
+    if (lamaRental > 0)
+        total *= lamaRental;
+
+    cout << "Keterlambatan (satuan jam): ";
+    cin >> keterlambatan;
+    if (keterlambatan > 0)
+        total += keterlambatan * 100000;
+
+    cout << "INVOICE" << endl;
+    cout << "Biaya yang harus dibayar " << total;
+}

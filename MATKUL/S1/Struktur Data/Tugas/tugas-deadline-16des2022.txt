@@ -1,0 +1,15 @@
+Kunjungan pohon biner
+- depth first order
+- symetic order
+- postorder
+
+isi
+- definisi
+- contoh kehidupan sehari"
+- ilustrasi data
+- contoh coding(opsi)
+
+deadline tgl 16
+email: febriyastudy@gmail.com
+subject: kunjunagn pohon biner - nama - kelas
+format: .pptx (power point)

@@ -1,0 +1,10 @@
+so there are 3 important components on the internet.
+the first is the computer or device
+ - A computer is an electronic device designed to process, store, and retrieve data quickly and efficiently. 
+the second is the world
+ - The definition of world here, is that the scale or reach of the internet must cover the entire world.
+the 3rd is the Computer networking
+ - A computer network is a connection between two or more computers that allows them to communicate with each other and share resources.
+
+In short, the internet is a bridge that connects computers and devices around the world.
+

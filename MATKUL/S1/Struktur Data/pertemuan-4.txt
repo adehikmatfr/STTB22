@@ -1,3 +1,4 @@
 1. Array => arr[3]
-2. LinkedList => arr[0] = 1 -> arr[1] = 2 -> arr[2]  -> contohnya map kalo di golang
-2. Stack -> FIFO (fisrt in fisrt out)
+2. LinkedList => ada next yang tipedatanya pointer dari kelas itu sendiri
+3. Stack -> LIFO (last in fisrt out)
+4. Queue -> FIFO (firt in first out)
