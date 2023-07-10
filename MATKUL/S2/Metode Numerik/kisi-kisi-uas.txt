@@ -1,0 +1,4 @@
+1. menghitung jumlah penduduk indonesia di latihan soal udah ada
+2. menyelesaikan integral dengan aturan trapezieda
+3. menyelesaikan persamaaan di persensial biasa dengan metode heun
+4. menyelesaikan persamaaan di persensial biasa yuler
