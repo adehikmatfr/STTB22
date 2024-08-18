@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Number to Alphabet</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <span>Input Number</span>
+    <input type="number" name="number" id="num" pattern="[0-9]*"
+        oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+    <span id="result">Result: </span>
+</body>
+
+</html>

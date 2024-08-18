@@ -1,0 +1,23 @@
+Resume Pertemuan 1
+Diagram yang akan di pelajari
+1. usecase diagram
+2. usecase secenario
+3. activiti diagram
+4. sequen diagram
+5. class diagram
+
+Police
+#jika ada cantumpak sumber literatur (+)
+#jika ada pendapat menggunakan (sitasi) menurut pendapat bapak ir sukarno kemerdekaan adalah hak semua bangsa
+#literatur max 5 tahun ke belakang
+#sumber kredible
+
+Teknik pengumpulan
+- lewat google drive
+- format PDF
+- deadlen -1 sebelum pertemuan berikutnya
+
+Tugas
+tugas 1 -> pengertian, tujuan dan simbol" diagram 1-5
+
+note: diagram" ini akan ada di skripsi

@@ -1,0 +1,56 @@
+statistika
+descriptif: pengumpulan, pengelolaan dan penyajian tanpa kesimuplan.
+inferensi: metode statistik untuk menganalisis data dan di ambil kesimpulan.
+	   akan menghasilkan generalisasi jika semple representatif.
+metode ilmiah: cara untuk mencari kebenaran yang di tinjau dari segi penerapan,
+	       resiko untuk keliru paling kecil.
+	      - langkah metode ilmiah
+		1. merumuskan masalah
+		2. melakukan studi litelatur
+		3. membuat dugaan", pertanyaan" atau hipotests
+		4. mengumpulkan dan mengelola data, menguji hipotesisi atau menjawab pertanyaan
+		5. mengambil kesimpulan
+data di bagi menjadi 2:
+- kualitatif : dinyatakan dalam bentuk bukan angka kategosiasai atau klasifikasi (jenis pekerjaan, status material) 
+  *jenis data nominal ordinal
+- kuantitatif: dinyatakan dalam bentuk angka (usia,gaji) -> jenis data interval rasio
+
+PROSEDUR PENGELOLAAN DATA:
+a. parameter
+- statistika parameter
+- statistik nonparameter
+b. jumlah variable
+- analisis univariant
+- analisis multivariant
+
+# pengelolaan data
+# penyajian data
+- table
+- grafik (batang, garis, integaktif)
+- frekuensi
+banyaknya data dari satu kelompok data
+- distibusi frekuensi
+mengelompokan data interval/rasio dan menghitung banyak data dalam satu kelompok atau klasifikasi
+- rata-rata
+ jumlah data / banyak data
+ 1+2+..+10 = 55 / 10 = 5.5
+
+
+30-43 = 13
+jum f= 85 
+k = 1 + 3.3 log 80 = 7
+panjang= range/banyak kelas
+       = 13/7
+       = 1,85
+       = 2
+
+kelompok usia frekuensi
+30-31           11
+32-33
+34-35
+
+rata-rata 35,88
+median 6 dari 7+5/2
+modus 30 ada 15 frekuensi
+
+  

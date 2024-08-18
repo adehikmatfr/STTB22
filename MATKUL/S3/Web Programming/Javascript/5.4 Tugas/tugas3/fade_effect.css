@@ -1,0 +1,15 @@
+#fadingSquare {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.figure {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square {
+    background-color: blue;
+}

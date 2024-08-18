@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form HTML</title>
+    <meta content="text/html; charset=utf-8" />
+    <style>
+        .center-container {
+            display: flex;
+            justify-content: center;
+            /* Pusat secara horizontal */
+            align-items: center;
+            /* Pusat secara vertikal */
+            height: 100vh;
+            /* Untuk mengisi seluruh tinggi viewport */
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-container">
+        <div>
+            <h2>Form HTML</h2>
+            <form action="" method="" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="in">Indonesia</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <div>
+                    <label for="photo">Upload a Photo:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*"
+                        style="border: 1px solid #ccc; padding: 2px;">
+                </div>
+
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
